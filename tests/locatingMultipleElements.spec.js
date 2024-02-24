@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-test('should first', async ({ page }) => {
+test('Locating multiple elements.spec', async ({ page }) => {
   await page.goto('https://demoblaze.com/');
 
   // const allLinks = await page.$$('a');
